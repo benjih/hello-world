@@ -1,2 +1,12 @@
 name: hello-world
+description: Obligatory Hello World Release
 version: 0.0.@
+
+inputs:
+- id: who
+  default: world
+  description: |
+    Who are we greeting exactly?
+
+build: hello.sh
+deploy: hello.sh
