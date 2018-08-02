@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-message="Hello $INPUT_who! 👋"
+message="Hello, you are $INPUT_who! 👋"
 
 echo "$message"
 
