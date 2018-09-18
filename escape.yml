@@ -10,3 +10,7 @@ inputs:
 
 build: hello.sh
 deploy: hello.sh
+
+errands:
+  my-errand:
+    script: my-errand.sh
