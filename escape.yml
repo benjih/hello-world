@@ -17,28 +17,24 @@ errands:
     description: "this is an errand with inputs"
     inputs:
     - id: string_input
-      visible: false
       friendly: string input
       default: input string
       type: string
       description: |
         This is a description of a string input
     - id: list_input
-      visible: false
       friendly: list input
       default: [input list]
       type: list
       description: |
         This is a description of a list input
     - id: integer_input
-      visible: false
       friendly: integer input
       default: 27
       type: integer
       description: |
         This is a description of a integer input
     - id: bool_input
-      visible: false
       friendly: bool input
       default: true
       type: bool
