@@ -1,0 +1,9 @@
+--- 
+build: 
+  steps: 
+    - 
+      escape_plan_location: escape.yml
+      force_overwrite: true
+      skip_deploy: true
+      tag_git: false
+escapekit_version: 1
