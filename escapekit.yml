@@ -3,6 +3,6 @@ build:
   steps: 
     - 
       escape_plan_location: escape.yml
-      force_overwrite: "true,"
+      force_overwrite: true
       skip_deploy: true
       tag_git: false
